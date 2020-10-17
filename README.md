@@ -1,2 +1,2 @@
-#### CobolPeople.com
-_Where the dinosaurs roam._
+### CobolPeople.com
+***...where the dinosaurs roam...***
