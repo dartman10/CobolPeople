@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `CobolPeople.com`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `T-Rexy`,
+      summary: `he who roams the wild...`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
+    description: `Just another site for the dead language, or so they say.`,
+    siteUrl: `http://www.CobolPeople.com/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `t-rexy`,
     },
   },
   plugins: [
