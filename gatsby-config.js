@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `CobolPeople.com`,
+    title: `cobol_people`,
     author: {
       name: `T-Rexy`,
-      summary: `he who roams the wild...`,
+      summary: ``,
     },
     description: `Just another site for the dead language, or so they say.`,
     siteUrl: `http://www.CobolPeople.com/`,
