@@ -8,7 +8,9 @@ description: "COBOL : EXIT PERFORM"
 **Why use EXIT PERFORM?**
 
 MOVE 'HELLNO' TO WS-SEARCH-VALUE
+
 MOVE 0 TO WS-INDEX
+
 PERFORM 999999999 TIMES  *> Endless loop. Inline perform.
   ADD 1 TO WS-INDEX
   IF WS-INDEX > WS-ARRAY-SIZE *> If array subscript is greater than array size - will cause overflow.
