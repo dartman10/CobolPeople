@@ -12,6 +12,7 @@ description: "When to use COBOL EXIT PERFORM"
     PERFORM 999999999 TIMES  *> Endless loop. Inline perform.
       ADD 1 TO WS-INDEX  
       IF WS-INDEX > WS-ARRAY-SIZE *> Avoid array overflow  
+        DISPLAY "Reached end of array. None found."  
         EXIT PERFORM              *> Exit inline perform  
       END-IF  
       IF WS-ARRAY(WS-INDEX) = WS-SEARCH-VALUE *> Search text  
@@ -23,3 +24,5 @@ description: "When to use COBOL EXIT PERFORM"
         EXIT PERFORM              *> Exit inline perform  
       END-IF  
     END-PERFORM  
+
+***Tags : exit_perform cobol_exit***
