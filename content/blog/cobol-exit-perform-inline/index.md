@@ -1,13 +1,13 @@
 ---
 title: EXIT PERFORM
 date: "2020-10-24T22:12:03.284Z"
-description: "COBOL : EXIT PERFORM"
+description: "When to use COBOL EXIT PERFORM"
 ---
 
 
-**Why use EXIT PERFORM?**
+**When to use EXIT PERFORM?**
 
-    MOVE 'HELLNO' TO WS-SEARCH-VALUE  
+    MOVE 'WIDGET' TO WS-SEARCH-VALUE  
     MOVE 0 TO WS-INDEX  
     PERFORM 999999999 TIMES  *> Endless loop. Inline perform.
       ADD 1 TO WS-INDEX  
