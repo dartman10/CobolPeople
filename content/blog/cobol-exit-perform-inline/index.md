@@ -25,4 +25,4 @@ description: "When to use COBOL EXIT PERFORM"
       END-IF  
     END-PERFORM  
 
-***Tags :***   ***EXIT PERFORM***   ***COBOL EXIT***
+***Tags : EXIT PERFORM, COBOL EXIT***
