@@ -19,7 +19,7 @@ description: "COBOL : EXIT PERFORM"
         EXIT PERFORM  *> Mission accomplished. Stop looping.
       END-IF  
       IF WS-ARRAY(WS-INDEX) = SPACES *> No more values  
-        DISPLAY "Reached end of array! Value not found!"  
+        DISPLAY "Reached end of array values. None found."  
         EXIT PERFORM              *> Exit inline perform  
       END-IF  
     END-PERFORM  
