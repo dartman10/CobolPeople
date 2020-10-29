@@ -16,4 +16,4 @@ description: "Using DATE YYYYMMDD"
               WS-DATE(7:2)
       GOBACK.
 
-***Tags : COBOL  DATE  YYYYMMDD ***
+***Tags : COBOL DATE YYYYMMDD***
